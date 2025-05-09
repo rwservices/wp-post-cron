@@ -1,0 +1,14 @@
+{
+  "name": "wp-cron-job",
+  "version": "1.0.0",
+  "description": "Node.js app to fetch JSON from GitHub and insert into WordPress every 5 minutes",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.5.0",
+    "node-cron": "^3.0.3"
+  }
+}
